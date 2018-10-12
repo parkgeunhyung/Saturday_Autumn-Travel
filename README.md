@@ -8,11 +8,15 @@
   
 ## 2018-10-21 토요일
 안녕하세요! 이번 주에 하고자 하는 내용 입니다. 
-1. github에 Saturday_Autumn_Travel Repository에 생성된 개인 branch 확인하기 (개인 branch 명은 아래 참조)
+1. github에 Saturday_Autumn_Travel Repository에 생성된 개인 branch 확인하여 주세요. 개인 branch 명 및 링크는 다음과 같습니다. 
   - 민희정: HJ
+    https://github.com/heejeongMin/Saturday_Autumn-Travel/tree/HJ
   - 임기원: KW
+    https://github.com/heejeongMin/Saturday_Autumn-Travel/tree/KW
   - 박근형: KH
+    https://github.com/heejeongMin/Saturday_Autumn-Travel/tree/KH
   - 김창호: CH
+    https://github.com/heejeongMin/Saturday_Autumn-Travel/tree/CH
 2. 개인 branch 업데이트
   - regionNav.html, place.html 
     : 첫 번째는 첫날 공유드린 네비게이션 페이지이고, 두 번째는 각자 작업한 가고싶은 곳 페이지 입니다. 

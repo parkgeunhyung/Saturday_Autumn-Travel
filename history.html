@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>강화도</title>
+    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.css">
-    <link rel="stylesheet" href="css/region.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/heejeong.css">
+    
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="js/regionPlace.js"></script>
+    <script src="js/history.js"></script>
 </head>
 
 <body>
@@ -25,13 +32,13 @@
             <div class="headerbar">
                 <nav>
                     <div>
-                        <button id="home"><i class="fas fa-home"></i></button>
+                        <button id="home"><a href="#"><i class="fas fa-home"></i></a></button>
                         <button id="headerClose"><i class="fas fa-angle-up"></i></button>
                     </div>
                     <ul>
                         <!--Todo: a 태그에 본인 페이지 연결하기-->
                         <li><a href="place.html">#가봐야할 곳 Best 5</a></li>
-                        <li><a href="#">#역사</a></li>
+                        <li><a href="history.html">#역사</a></li>
                         <li><a href="#">#먹거리 Best 3</a></li>
                         <li><a href="#">#찾아가기</a></li>
                     </ul>
@@ -42,43 +49,50 @@
     <main id="historyMain">
         <h2>역사</h2>
         <article>
-            <div id="historyDetail">
-                <img src="https://via.placeholder.com/200x150" alt="">
-                <caption>
-                    <h3>Lorem ipsum dolor sit amet,</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum possimus, voluptatum suscipit aperiam eligendi eum dolorem labore vel quasi amet maxime sunt minima, voluptas quo sit accusamus molestias ipsa nihil.
-                    </p>
-                </caption>
+            <img src="img/history1.jpg" alt="byeonginyangyo" id="picture">
+            <div class="story">
+                <h3 id="title">병인양요</h3>
+                <p id="text">1866년(고종 3) 흥선대원군의 천주교도 학살 ·탄압에 대항하여 프랑스함대가 강화도에 침범한 사건.</p>
             </div>
         </article>
         <aside>
-             <div id="historyDetail">
-                <img src="https://via.placeholder.com/200x150" alt="">
-                <caption>
-                    <h3>Lorem ipsum dolor sit amet,</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum possimus, voluptatum suscipit aperiam eligendi eum dolorem labore vel quasi amet maxime sunt minima, voluptas quo sit accusamus molestias ipsa nihil.
-                    </p>
-                </caption>
-            </div>
-             <div id="historyDetail">
-                <img src="https://via.placeholder.com/100x70" alt="">
-                <caption>
-                    <h3>Lorem ipsum dolor sit amet,</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum possimus, voluptatum suscipit aperiam eligendi eum dolorem labore vel quasi amet maxime sunt minima, voluptas quo sit accusamus molestias ipsa nihil.
-                    </p>
-                </caption>
-            </div>
-             <div id="historyDetail">
-                <img src="https://via.placeholder.com/100x70" alt="">
-                <caption>
-                    <h3>Lorem ipsum dolor sit amet,</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum possimus, voluptatum suscipit aperiam eligendi eum dolorem labore vel quasi amet maxime sunt minima, voluptas quo sit accusamus molestias ipsa nihil.
-                    </p>
-                </caption>
-            </div>
+            <ul>
+                <li>
+                    <div class="over">
+                        <i class="fas fa-search-plus"></i>
+                        <p>병인양요</p>
+                    </div>
+                    <img src="img/history1.jpg" alt="byeonginyangyo">
 
+                    <div class="story">
+                        <h3>병인양요</h3>
+                        <p>1866년(고종 3) 흥선대원군의 천주교도 학살 ·탄압에 대항하여 프랑스함대가 강화도에 침범한 사건.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="over">
+                        <i class="fas fa-search-plus"></i>
+                        <p>신미양요</p>
+                    </div>
+                    <img src="img/history2.jpg" alt="shinmiyangyo">
+                    <div class="story">
+                        <h3>신미양요</h3>
+                        <p>1871년(고종 8) 미국이 1866년의 제너럴셔먼호(號) 사건을 빌미로 조선을 개항시키려고 무력 침략한 사건.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="over">
+                        <i class="fas fa-search-plus"></i>
+                        <p>강화도 조약</p>
+                    </div>
+                    <img src="img/history3.jpg" alt="shinmiyangyo">
+                    <div class="story">
+                        <h3>강화도 조약</h3>
+                        <p>1876년(고종 13년) 2월 강화도에서 조선과 일본이 체결한 조약. 일본의 군사력을 동원한 강압에 의해 체결된 불평등 조약으로 공식 명칭은 조일수호조규이며, 병자수호조약이라고도 한다. </p>
+                    </div>
+                </li>
+            </ul>
         </aside>
-
     </main>
 
 
